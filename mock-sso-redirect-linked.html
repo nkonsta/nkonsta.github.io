@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mock SSO Redirect</title>
+  <script>
+    window.onload = function() {
+      // Redirect to your app's custom scheme with dummy parameters
+      window.location.href = "com.qrpatrol.mobile://oauth2redirect?token=testtoken123&userId=testuser";
+    }
+  </script>
+</head>
+<body>
+  Redirecting to app...
+</body>
+</html>
